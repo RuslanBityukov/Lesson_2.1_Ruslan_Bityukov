@@ -17,25 +17,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g91-JA-0dy">
-                                <rect key="frame" x="32" y="81" width="350" height="350"/>
+                                <rect key="frame" x="32" y="78" width="350" height="350"/>
                                 <color key="backgroundColor" red="0.91980725526809692" green="0.39859267190364939" blue="0.27596488656263951" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iyG-H2-7g4">
-                                <rect key="frame" x="32" y="461" width="350" height="350"/>
+                                <rect key="frame" x="32" y="465" width="350" height="350"/>
                                 <color key="backgroundColor" red="0.35627721227520104" green="0.86087566614151001" blue="0.68692806746366009" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
-                            <constraint firstItem="iyG-H2-7g4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="1pS-mD-Fjh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iyG-H2-7g4" secondAttribute="bottom" constant="51" id="Hs8-eY-2Jh"/>
-                            <constraint firstItem="g91-JA-0dy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="37" id="MCO-sJ-7bf"/>
-                            <constraint firstItem="iyG-H2-7g4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.390625" id="Q3Q-pK-8XP"/>
-                            <constraint firstItem="g91-JA-0dy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="XtR-iG-bAb"/>
-                            <constraint firstItem="g91-JA-0dy" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.390625" id="fIf-lh-3kj"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iyG-H2-7g4" secondAttribute="trailing" constant="32" id="yfH-lM-oKG"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g91-JA-0dy" secondAttribute="trailing" constant="32" id="zGe-we-kOv"/>
+                            <constraint firstItem="iyG-H2-7g4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="2K8-3h-LEg"/>
+                            <constraint firstItem="iyG-H2-7g4" firstAttribute="top" secondItem="g91-JA-0dy" secondAttribute="bottom" constant="37" id="3kM-Qf-YLA"/>
+                            <constraint firstItem="g91-JA-0dy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="DWi-CV-t1i"/>
+                            <constraint firstItem="iyG-H2-7g4" firstAttribute="height" secondItem="g91-JA-0dy" secondAttribute="height" id="Icj-5U-gkU"/>
+                            <constraint firstItem="g91-JA-0dy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="Pcx-1G-gGO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="g91-JA-0dy" secondAttribute="trailing" constant="32" id="ZHa-Cb-nb1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iyG-H2-7g4" secondAttribute="trailing" constant="32" id="t8f-dh-BKx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="iyG-H2-7g4" secondAttribute="bottom" constant="47" id="vv1-ZH-DC2"/>
                         </constraints>
                     </view>
                 </viewController>
